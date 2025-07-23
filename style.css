@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+button a{
+    cursor: pointer;
+}
+/* Normalize end */
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+}
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 40px;
+}
+nav{
+    display: flex;
+    gap: 75px;
+}
+.hm_title{
+    font-weight: 700;
+    color: #054C73;
+    font-size: 34px;
+}
+nav a{
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+}
+.header_intro{
+    background-image: url(Image/bgc_img.jpg);
+    height: 940px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.arrival{
+    width: 650px;
+    height: 450px;
+    background-color: #DFE9F4;
+    padding: 45px;
+    border-radius: 20px;
+}
+.arrivaldiv{
+    display: flex;
+    justify-content: end;
+    padding-block: 280px 210px;
+}
+.arrival h3{
+    color: #333333;
+    font-weight: 500;
+}
+.arrival h1{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 65px;
+    color: #054C73;
+    max-width: 450px;
+    margin-top: 20px;
+}
+.arrival p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 39px;
+    margin-block: 20px 30px;
+}
+.arrival button{
+    background-color: #054C73;
+    border: none;
+    border-radius: 32px;
+    text-transform: uppercase;
+    color: white;
+    padding: 25px 72px;
+    font-weight: 700;
+}
+.in_ads1{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 45px;
+}
+.ads1{
+    background-color: #F2F5FF;
+}
+.truck{
+    display: flex;
+    gap: 30px;
+}
+.inf_work{
+    display: flex;
+    gap: 30px;
+}
+.security{
+    display: flex;
+    gap: 30px;
+}
+.ads1_articles h1{
+    font-weight: 600;
+    font-size: 24px;
+    color: #333333;
+}
+main{
+    margin-top: 60px;
+    margin-bottom: 75px;
+}
+.collection{
+    margin-bottom: 180px;
+}
+.collection h1{
+    font-weight: bold;
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.collection p{
+    font-size: 20px;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.col_img2 {
+    width: 355px;
+    height: 434px;
+    background-image: url(Image/breh.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -40px;
+}
+.col_img3{
+    background-image: url(Image/lamp.png);
+    width: 355px;
+    height: 434px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 60px 0;
+}
+.col_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.col_img1{
+    border-radius: 60px 0 0 0;
+    width: 355px;
+    height: 434px;
+    background-image: url(Image/kaktus.png);
+}
+.col_img1 img{
+    width: 100%;
+    height: 100%;
+}
+.rooms h1{
+    font-weight: bold;
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.rooms p{
+    font-size: 20px;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.room_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.room1{
+    text-align: center;
+}
+.room1 h2{
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 30px;
+}
+footer{
+    background-color: #F2F5FF;
+    padding-block: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer h1{
+    font-weight: bold;
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+footer p{
+    max-width: 510px;
+    font-size: 20px;
+    line-height: 39px;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 50px;
+}
+input:first-child{
+    width: 330px;
+    height: 70px;
+    background-color: #fff;
+    border: rgba(5, 76, 115, 1) 1px solid;
+    padding: 25px;
+    border-radius: 5px;
+}
+.JUSTWHY{
+    width: 150px;
+    border: rgba(1, 28, 66, 1) 1px solid;
+    height: 70px;
+    background-color: rgba(5, 76, 115, 1);
+    color: white;
+    border-radius: 5px;
+    margin-left: -10px;
+}
